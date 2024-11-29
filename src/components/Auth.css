@@ -1,0 +1,43 @@
+/* Auth.css */
+.auth-container {
+    background: linear-gradient(135deg, #1d00c0, #287eff);
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.auth-button {
+    background-color: #ffffff;
+    color: #287eff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #287eff;
+    color: #ffffff;
+}
+.auth-button {
+    background-color: #4083ffc5; /* Cor de fundo rosa */
+    color: #ffffff; /* Cor do texto branco */
+}
+
+.auth-button:hover {
+    background-color: #f50057; /* Cor de fundo rosa mais escuro ao passar o mouse */
+    color: #ffffff; /* Mantém o texto branco ao passar o mouse */
+}

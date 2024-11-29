@@ -1,0 +1,83 @@
+/* Estilo para o corpo da página */
+.body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1d00c0; /* Cor de fundo */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilo para o banner */
+.banner {
+  background-color: #ffffff; /* Cor de fundo do banner */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  min-height: 180px; /* Aumentar a altura mínima do banner */
+  display: flex; /* Usar flexbox para alinhar itens */
+  align-items: center; /* Alinhar verticalmente ao centro */
+}
+
+/* Estilo para os GIFs à esquerda e à direita do título */
+.gifs-left,
+.gifs-right {
+  display: flex;
+  align-items: center; /* Alinhar verticalmente os GIFs */
+}
+
+.gifs-left {
+  margin-right: auto; /* Empurra o título para o centro */
+}
+
+.gifs-right {
+  margin-left: auto; /* Empurra o título para o centro */
+}
+
+/* Estilo para o título principal */
+.title {
+  color: #287eff; /* Cor ciano */
+  font-size: 36px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para cada GIF no banner */
+.gif-image {
+  width: 150px; /* Diminua o tamanho conforme necessário */
+  height: 150px; /* Mantém a proporção do GIF */
+  margin: 15px; /* Espaçamento entre os GIFs */
+}
+
+/* Estilo para as caixas de animes assistidos */
+.anime-box {
+   background-color: rgba(71,71,71,.199); /* Fundo branco com opacidade */
+   border-radius:10px; /* Bordas arredondadas */
+   padding-left:10px; /* Corrigido de px10 para um valor numérico correto */
+}
+
+/* Estilo para a galeria de GIFs */
+.gif-gallery {
+ display:flex;
+ flex-wrap: wrap; /* Permitir quebra de linha */
+ justify-content:center; /* Centralizar os itens na galeria */
+}
+
+/* Estilo para cada GIF na galeria */
+.gallery-gif {
+ width:120px; /* Tamanho padrão dos GIFs na galeria */
+ margin-left:10px; /* Corrigido de px10 para um valor numérico correto */
+ margin-bottom:10px; /* Espaçamento inferior entre os GIFs na galeria */
+}
+
+/* Estilo específico para o subtítulo */
+.subtitle {
+ text-align:left; 
+ margin-left:20px; /* Corrigido de px20 para um valor numérico correto */
+ color:#ffffff; /* Cor branca */
+}
+
+/* Estilo para o campo de entrada */
+.input-field {
+ width:100%; /* Corrigido de px100% para um valor numérico correto */
+ border-radius:5px; /* Corrigido de px5 para um valor numérico correto */
+ border:1px solid #ccc; /* Corrigido de px1 solid #ccc para um valor numérico correto */
+}
